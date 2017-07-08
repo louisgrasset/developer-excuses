@@ -1,0 +1,68 @@
+html {
+    margin: 0;
+}
+
+body, body.moon {
+    background: #3a3944;
+    color: #ccc;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+}
+
+body.light {
+    background-color: #ececec;
+    color: #292929;
+}
+
+body.dark {
+    background-color: #323232;
+    color: #a1a1a1;
+}
+
+.quote {
+    padding: 5vw;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    top: 30vh;
+    margin: 0 auto;
+    max-width: 980px;
+    font-size: 60px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+@media screen and (max-width: 768px) {
+    .quote {
+        top: 10vh;
+        padding: 5vw;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-height: 500px) {
+    .quote {
+        top: 30vh;
+    }
+}
+@media screen and (max-height: 500px) {
+    .quote {
+        top: 10vh;
+        padding: 20px;
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .quote {
+        top: 10vh;
+        padding: 20px;
+        font-size: 35px;
+    }
+}
+
+.currentQuote {
+    opacity: 0;
+}
