@@ -20,6 +20,26 @@ body.dark {
     color: #a1a1a1;
 }
 
+body.sun {
+    background-color: #ffC812;
+    color: #292929;
+}
+
+body.dream {
+    background-color: #6721ff;
+    color: #292929;
+}
+
+body.grass {
+    background: #34d183 url("./icons/goat.svg") center;
+    background-size: 90px;
+    color: #292929;
+}
+
+body.grass .quote {
+    background: #34d183;
+}
+
 .quote {
     padding: 5vw;
     cursor: pointer;
@@ -48,6 +68,7 @@ body.dark {
         top: 30vh;
     }
 }
+
 @media screen and (max-height: 500px) {
     .quote {
         top: 10vh;
@@ -55,6 +76,7 @@ body.dark {
         font-size: 35px;
     }
 }
+
 @media screen and (max-width: 450px) {
     .quote {
         top: 10vh;

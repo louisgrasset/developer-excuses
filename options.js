@@ -38,3 +38,18 @@ document.querySelector("#dark").addEventListener("click", function () {
     document.querySelector("#color").value = "dark";
     save_options();
 }, false);
+
+document.querySelector("#sun").addEventListener("click", function () {
+    document.querySelector("#color").value = "sun";
+    save_options();
+}, false);
+
+document.querySelector("#dream").addEventListener("click", function () {
+    document.querySelector("#color").value = "dream";
+    save_options();
+}, false);
+
+document.querySelector("#grass").addEventListener("click", function () {
+    document.querySelector("#color").value = "grass";
+    save_options();
+}, false);

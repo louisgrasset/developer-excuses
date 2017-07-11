@@ -66,6 +66,15 @@ const restore_options = (debug) => {
                 case "dark":
                     BODY.classList.add(items.theme);
                     break;
+                case "sun":
+                    BODY.classList.add(items.theme);
+                    break;
+                case "dream":
+                    BODY.classList.add(items.theme);
+                    break;
+                case "grass":
+                    BODY.classList.add(items.theme);
+                    break;
             }
             resolve(items.quoting);
         });
