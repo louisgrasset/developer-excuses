@@ -2,11 +2,12 @@
   "manifest_version": 2,
   "name": "Developer Excuses",
   "description": "Get a brand new developer excuse for every new tab ! Excuses from www.developerexcuses.com.",
-    "version": "0.2.1",
+    "version": "0.2.2",
   "permissions": [
     "http://*.developerexcuses.com/",
     "storage"
   ],
+  "offline_enabled": true,
   "options_ui": {
     "page": "options.html",
     "chrome_style": true
