@@ -1,4 +1,5 @@
 body {
+	background: #f9f9fa;
     overflow: hidden;
 }
 
@@ -38,6 +39,7 @@ body {
     background-position: -15px 15px;
     background-size: 50px;
     background-repeat: no-repeat;
+    text-align: center;
 }
 
 #theme .item:hover {
@@ -49,6 +51,7 @@ body {
     color: #9390ac;
     background-color: #3a3944;
     background-image: url("./icons/moon.png");
+    background-position: -5px 15px;
 }
 
 #theme .item#light {
@@ -67,6 +70,7 @@ body {
     color: #292929;
     background-color: #ffC812;
     background-image: url("./icons/light.png");
+    background-position: -5px 15px;
 }
 
 #theme .item#dream {
